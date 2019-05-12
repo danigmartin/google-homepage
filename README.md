@@ -1,0 +1,1 @@
+This is the easy version of HTML/CSS project called "google-homepage", of "The Odin Project" curriculum. 
