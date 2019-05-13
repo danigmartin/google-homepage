@@ -1,0 +1,54 @@
+header {
+    background-color: white;
+    height: 30px;
+}
+
+.apps {
+    background: url(./images/gapps.png);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+}
+
+#lh {
+    float: right;
+}
+
+.user {
+    width: 30px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.a1 {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+ .user1 {
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+}
+
+.userlogo {
+    border-radius: 100%;
+}
+
+.tl:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.apps:hover {
+    opacity: 1;
+}
