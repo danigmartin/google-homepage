@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: white;
     height: 30px;
+    padding-top: 10px;
 }
 
 .apps {
@@ -51,4 +57,162 @@ a {
 
 .apps:hover {
     opacity: 1;
+}
+
+.googlelogo {
+    height: 233px;
+}
+
+.logo {
+    padding-top: 109px;
+}
+
+.contenedorlogo {
+    height: 233px;
+    width: 265px;
+    margin: 0 auto;
+}
+
+.busqueda {
+    height: 44px;
+    width: 100%;
+}
+
+.cuadrobusqueda {
+    height: 42px;
+    width: 582px;
+    border: 2px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+.inp {
+ display: inline-block;
+ height: 42px;
+ width: 88%;
+ margin-left: 15px;
+ position: relative;
+}
+
+.miclogo {
+display: inline-block;
+height: 42px;
+width: 6%;
+background: url(images/miclogo.png)
+}
+
+.textobusqueda {
+position: absolute;
+width: 100%;
+height: 100%;
+border: none;
+}
+
+.imgmiclogo {
+    width: 45%;
+    height: 55%;
+    padding-left: 12px;
+    padding-bottom: 8px;
+}
+
+.cuadrobusqueda:hover {
+    box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.contbotones {
+    height: 58px;
+}
+
+.cont2 {
+    height: 73px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.boton {
+  padding: 10px;
+  margin-top:20px;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  text-align: center;
+  color: #5F6368;
+}
+
+.boton:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    cursor: pointer;
+}
+
+.btn1 {
+    margin-left: 23%;
+    margin-right: 10px;
+}
+
+.idiomas {
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: #222;
+    margin-top: 15px;
+}
+
+.idiomas a {
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #1A0DAB;
+}
+
+footer {
+    bottom: 0;
+    height: 82px;
+    width: 100%;
+    position: absolute;
+}
+
+.fot {
+    background-color: #f2f2f2;
+    height: 40px;
+}
+
+.fot1 {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.country {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.54);
+    width: 80px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.fotleft {
+padding-top: 10px;
+display: inline-block;
+}
+
+.fotrigth {
+    padding-top: 10px;
+    display: inline-block;
+    right: 30px;
+    position: absolute;
+}
+
+.fot a {
+    color: #5f6368;
+    margin-left: 30px;
+}
+
+.fot a:hover {
+    text-decoration: underline;
 }
